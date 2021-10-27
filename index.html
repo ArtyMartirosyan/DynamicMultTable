@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example</title>
+        <link rel="stylesheet" href="css/index.css" charset="utf-8">
+        <script type="text/javascript" src="js/index.js"></script>
+    </head>
+    <body>
+        <div id="borders">
+            <h2>HTML Forms</h2>
+            <!--Form for input values-->
+            <form action="/action_page.php">
+                <label for="rfrom">Row values from:</label>
+                <input type="text" id="rfrom" name="rfrom" value="5" min="-100" max="100">
+                <label for="lname">to:</label>
+                <input type="text" id="rto" name="rto" value="10" min="-100" max="100"><br><br>
+                <label for="cfrom">Column values from:</label>
+                <input type="text" id="cfrom" name="cfrom" value="5" min="-100" max="100">
+                <label for="lname">to:</label>
+                <input type="text" id="cto" name="cto" value="10" min="-100" max="100"><br><br>
+            </form>
+            <!--Erros are placed here-->
+            <span id="err"></span>
+            <div id="myDynamicTable">
+                <button id="create" type="button" onclick="errMsg()">create</button>
+            </div>
+            
+            <br>
+        </div>
+    </body>
+</html>
