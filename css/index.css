@@ -1,3 +1,6 @@
+h2 {
+    font-family: Arial, sans-serif;
+}
 td {
     border: 1px solid black;
 }
@@ -11,6 +14,7 @@ td {
 }
 body {
     background-color: lavender;
+    font-family: Arial, sans-serif;
 }
 #borders {
     border-style: dotted;
